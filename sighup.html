@@ -1,0 +1,33 @@
+
+<div class="bg-img">
+    <script src="signup.js"></script>
+
+  <form action="validateForm()" name='signup'class="container" onsubmit="validateForm()">
+<text> ______Please Fill the form to Create an account_____</text>
+    <h1 >𝒜𝐸_𝒫𝐸𝑅𝐹𝒪𝑅𝑀𝒜𝒩𝒞𝐸𝒮</h1>
+    <h2>𝐒𝐢𝐠𝐧 𝐮𝐩</h2>
+    
+
+
+    <label for="email"><b>Email</b></label> 
+    <input type="text" pattern=".+gmail.com"   placeholder="Enter Email" name="email" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Enter Password" name="password" required>
+
+    <label for="password2"><b>RepeatPassword</b></label>
+    <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must be same with above" placeholder="Enter Password" name="password2" required>
+
+    <label for="phone"><b>Phone</b></label>
+    <input type="numbers" pattern="[7-9]{1}[0-9]{9}" placeholder="Enter Phone" name="phone" required><br><br>
+
+
+
+    <button type="submit" class="btn">𝐒𝐢𝐠𝐧 𝐮𝐩</button>
+
+    <button type="canceled" class="bton">cancel</button>
+    
+    <link rel="stylesheet" href="sighup.css">
+
+  </form>
+</div>

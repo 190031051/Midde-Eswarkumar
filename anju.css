@@ -1,0 +1,67 @@
+<style>
+/* Add a black background color to the top navigation */
+.topnav{
+	background: white;
+}
+.topnav {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  courser: navigation;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: grey;
+  color: black;
+}
+}
+
+/* Style the search field */
+.topnav button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+div {
+  width: 1480px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+.header {
+  padding: 50px;
+  text-align: center;
+  background: black;
+  width: 1000;
+  color: grey;
+  font-size: 30px;
+}</style>
+
+
+
